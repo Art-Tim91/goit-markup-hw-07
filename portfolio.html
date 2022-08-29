@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body class="page">
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="container flex">
+        <nav class="nav">
+          <a class="logo nav__logo" href="/" lang="en"
+            >Web<span class="nav__logo-second-word">Studio</span></a
+          >
+          <ul class="list nav__list">
+            <li class="nav__item">
+              <a class="nav__link nav__current" href="./index.html">Студия</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact__list">
+          <li class="contact__item">
+            <a class="contact__link" href="mailto:info@devstudio.com"
+              ><svg class="contact__icon" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use></svg
+              ><span class="contact__text">info@devstudio.com</span></a
+            >
+          </li>
+          <li class="contact__item">
+            <a class="contact__link" href="tel:+380961111111">
+              <svg class="contact__icon" width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use></svg
+              ><span class="contact__text">+38 096 111 11 11</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Герой -->
+    <main>
+      <section class="section gallery-section">
+        <div class="container">
+          <h1 class="title-section">Портфолио</h1>
+          <ul class="list filter-list">
+            <li class="filter-item">
+              <button class="button button-first" type="button" name="Все">
+                Все
+              </button>
+            </li>
+            <li class="filter-item">
+              <button class="button" type="button" name="Веб-сайты">
+                Веб-сайты
+              </button>
+            </li>
+            <li class="filter-item">
+              <button class="button" type="button" name="Приложения">
+                Приложения
+              </button>
+            </li>
+            <li class="filter-item">
+              <button class="button" type="button" name="Дизайн">Дизайн</button>
+            </li>
+            <li class="filter-item">
+              <button class="button" type="button" name="Маркетинг">
+                Маркетинг
+              </button>
+            </li>
+          </ul>
+          <ul class="list">
+            <li class="gallery-item">
+              <a href="#" class="link gallery-card-link">
+                <div class="gallery-box">
+                  <img
+                    src="./images/laptop.jpg"
+                    alt="сайт на ноутбуке"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="gallery-overlay">
+                    <p>
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="list-project">
+                  <h2 class="title project-title">Технокряк</h2>
+                  <p class="work-type">веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="#" class="link gallery-card-link">
+                <div class="gallery-box">
+                  <img
+                    src="./images/Basketball.jpg"
+                    alt="басскетболисты"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="gallery-overlay">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Totam quae neque odio similique reiciendis! At ducimus
+                      dolores praesentium nihil, quas, blanditiis, atque enim
+                      fuga labore officia eius architecto quos commodi.
+                    </p>
+                  </div>
+                </div>
+                <div class="list-project">
+                  <h2 class="title project-title">
+                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                  </h2>
+                  <p class="work-type">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="#" class="link gallery-card-link">
+                <div class="gallery-box">
+                  <img
+                    src="./images/seafood.jpg"
+                    alt="Эмблема ресторана"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="gallery-overlay">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Totam quae neque odio similique reiciendis! At ducimus
+                      dolores praesentium nihil, quas, blanditiis, atque enim
+                      fuga labore officia eius architecto quos commodi.
+                    </p>
+                  </div>
+                </div>
+                <div class="list-project">
+                  <h2 class="title project-title">
+                    Ресторан <span lang="en">Seafood</span>
+                  </h2>
+                  <p class="work-type">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="#" class="link gallery-card-link">
+                <div class="gallery-box">
+                  <img
+                    src="./images/headphones.jpg"
+                    alt="Наушники"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="gallery-overlay">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Totam quae neque odio similique reiciendis! At ducimus
+                      dolores praesentium nihil, quas, blanditiis, atque enim
+                      fuga labore officia eius architecto quos commodi.
+                    </p>
+                  </div>
+                </div>
+                <div class="list-project">
+                  <h2 class="title project-title">
+                    Проект <span lang="en">Prime</span>
+                  </h2>
+                  <p class="work-type">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="#" class="link gallery-card-link">
+                <div class="gallery-box">
+                  <img
+                    src="./images/boxes.jpg"
+                    alt="два бокса"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="gallery-overlay">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Totam quae neque odio similique reiciendis! At ducimus
+                      dolores praesentium nihil, quas, blanditiis, atque enim
+                      fuga labore officia eius architecto quos commodi.
+                    </p>
+                  </div>
+                </div>
+                <div class="list-project">
+                  <h2 class="title project-title">
+                    Проект <span lang="en">Boxes</span>
+                  </h2>
+                  <p class="work-type">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="#" class="link gallery-card-link">
+                <div class="gallery-box">
+                  <img
+                    src="./images/computer.jpg"
+                    alt="монитор с сайтом"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="gallery-overlay">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Totam quae neque odio similique reiciendis! At ducimus
+                      dolores praesentium nihil, quas, blanditiis, atque enim
+                      fuga labore officia eius architecto quos commodi.
+                    </p>
+                  </div>
+                </div>
+                <div class="list-project">
+                  <h2 class="title project-title" lang="en">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="work-type">веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="#" class="link gallery-card-link">
+                <div class="gallery-box">
+                  <img
+                    src="./images/magazine.jpg"
+                    alt="открытый журнал"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="gallery-overlay">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Totam quae neque odio similique reiciendis! At ducimus
+                      dolores praesentium nihil, quas, blanditiis, atque enim
+                      fuga labore officia eius architecto quos commodi.
+                    </p>
+                  </div>
+                </div>
+                <div class="list-project">
+                  <h2 class="title project-title">
+                    Издание <span lang="en">Limited Edition</span>
+                  </h2>
+                  <p class="work-type">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="#" class="link gallery-card-link">
+                <div class="gallery-box">
+                  <img
+                    src="./images/label.jpg"
+                    alt="этикетка"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="gallery-overlay">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Totam quae neque odio similique reiciendis! At ducimus
+                      dolores praesentium nihil, quas, blanditiis, atque enim
+                      fuga labore officia eius architecto quos commodi.
+                    </p>
+                  </div>
+                </div>
+                <div class="list-project">
+                  <h2 class="title project-title">
+                    Проект <span lang="en">LAB</span>
+                  </h2>
+                  <p class="work-type">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="gallery-item">
+              <a href="#" class="link gallery-card-link">
+                <div class="gallery-box">
+                  <img
+                    src="./images/writingonlaptop.jpg"
+                    alt="печатает на ноутбуке"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="gallery-overlay">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Totam quae neque odio similique reiciendis! At ducimus
+                      dolores praesentium nihil, quas, blanditiis, atque enim
+                      fuga labore officia eius architecto quos commodi.
+                    </p>
+                  </div>
+                </div>
+                <div class="list-project">
+                  <h2 class="title project-title" lang="en">
+                    Growing Business
+                  </h2>
+                  <p class="work-type">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Подвал -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__address-container">
+          <a class="logo footer__logo" href="/" lang="en"
+            >Web<span class="footer__logo-second-word">Studio</span></a
+          >
+          <address class="footer__address">
+            <ul>
+              <li class="footer__address-item">
+                <a
+                  class="footer__location-text"
+                  href="https://goo.gl/maps/Ahorg3LLs8p7K1ny8"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer__address-item">
+                <a class="footer__contacts" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer__address-item">
+                <a class="footer__contacts" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <p class="footer__social-title">Присоеденяйтесь</p>
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="">
+                <svg class="footer__social-icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="">
+                <svg class="footer__social-icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="">
+                <svg class="footer__social-icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="">
+                <svg class="footer__social-icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__form-container">
+          <p class="footer__connect-textarea">Подпишитесь на рассылку</p>
+          <form class="footer__in-btn-cont">
+            <label for="follow-email"></label>
+            <input
+              class="footer__input"
+              type="email"
+              name="follow-email"
+              id="follow-email"
+              placeholder="E-mail"
+              required
+            />
+            <button type="submit" class="footer__submit-btn">
+              Подписаться
+              <svg class="footer__icon-send" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

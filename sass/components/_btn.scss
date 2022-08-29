@@ -1,0 +1,110 @@
+/* ---Hero btn--- */
+.hero .button {
+  color: var(--button-text-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  padding: 10px 32px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition-property: background-color, transform, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    color: var(--button-text-color);
+    transform: scale(103%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* ---Filter-list btn--- */
+.filter-list .button {
+  color: var(--title-text-color);
+  background-color: var(--team-section-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 0;
+  padding: 6px 22px;
+  transition-property: background-color, box-shadow, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--button-text-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.button-first.button {
+  color: var(--button-text-color);
+  background-color: var(--accent-color);
+}
+
+/* ---Footer submit btn--- */
+
+.footer-submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--button-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  padding: 10px 29px;
+  border: 0;
+  border-radius: 4px;
+  transition-property: scale, background-color, box-shadow, transform, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--button-text-color);
+    background-color: #188ce8;
+    transform: scale(101%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.submit-btm {
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px 55px;
+  border: 0;
+  border-radius: 4px;
+  color: var(--main-title-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  transition: background-color, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    transform: scale(102%);
+  }
+}
