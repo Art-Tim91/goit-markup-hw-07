@@ -23,20 +23,6 @@
   &__list {
     display: flex;
   }
-  &__current {
-    color: var(--accent-color);
-    &__current::after {
-      content: "";
-      width: 100%;
-      height: 4px;
-      border-radius: 2px;
-      background-color: var(--accent-color);
-      position: absolute;
-      bottom: -1px;
-      left: 0;
-    }
-  }
-
   &__link {
     color: var(--title-text-color);
     font-weight: 500;
@@ -49,6 +35,20 @@
     &:hover,
     &:focus {
       color: var(--accent-color);
+    }
+  }
+  &__current {
+    position: relative;
+    color: var(--accent-color);
+    &::after {
+      content: "";
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      background-color: var(--accent-color);
+      position: absolute;
+      bottom: -1px;
+      left: 0;
     }
   }
 

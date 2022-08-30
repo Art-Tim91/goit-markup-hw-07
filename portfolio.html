@@ -30,10 +30,12 @@
           >
           <ul class="list nav__list">
             <li class="nav__item">
-              <a class="nav__link nav__current" href="./index.html">Студия</a>
+              <a class="nav__link" href="./index.html">Студия</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="./portfolio.html">Портфолио</a>
+              <a class="nav__link nav__current" href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
             <li class="nav__item">
               <a class="nav__link" href="">Контакты</a>
@@ -62,262 +64,258 @@
     <main>
       <section class="section gallery-section">
         <div class="container">
-          <h1 class="title-section">Портфолио</h1>
-          <ul class="list filter-list">
-            <li class="filter-item">
-              <button class="button button-first" type="button" name="Все">
+          <h1 class="hidden">Портфолио</h1>
+          <ul class="filter__list">
+            <li class="filter__item">
+              <button
+                class="filter__button filter__button-first"
+                type="button"
+                name="Все"
+              >
                 Все
               </button>
             </li>
-            <li class="filter-item">
-              <button class="button" type="button" name="Веб-сайты">
+            <li class="filter__item">
+              <button class="filter__button" type="button" name="Веб-сайты">
                 Веб-сайты
               </button>
             </li>
-            <li class="filter-item">
-              <button class="button" type="button" name="Приложения">
+            <li class="filter__item">
+              <button class="filter__button" type="button" name="Приложения">
                 Приложения
               </button>
             </li>
-            <li class="filter-item">
-              <button class="button" type="button" name="Дизайн">Дизайн</button>
+            <li class="filter__item">
+              <button class="filter__button" type="button" name="Дизайн">
+                Дизайн
+              </button>
             </li>
-            <li class="filter-item">
-              <button class="button" type="button" name="Маркетинг">
+            <li class="filter__item">
+              <button class="filter__button" type="button" name="Маркетинг">
                 Маркетинг
               </button>
             </li>
           </ul>
-          <ul class="list">
-            <li class="gallery-item">
-              <a href="#" class="link gallery-card-link">
-                <div class="gallery-box">
+          <ul class="gallery__list">
+            <li class="gallery__item">
+              <a href="#" class="gallery__card-link">
+                <div class="gallery__box">
                   <img
                     src="./images/laptop.jpg"
                     alt="сайт на ноутбуке"
                     width="370"
                     height="294"
                   />
-                  <div class="gallery-overlay">
-                    <p>
-                      Ресурс пропонує комплексні пропозиції з різним рівнем
-                      функціоналу та сервісів. Все це дозволить відвідувачу
-                      отримати вичерпні відомості про компанію чи приватну
-                      особу.
+                  <div class="gallery__overlay">
+                    <p class="gallery__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Explicabo in non eius distinctio expedita delectus, sequi
+                      libero velit ut dolore ducimus corrupti tempore saepe,
+                      odit architecto eum consectetur quod quaerat?
                     </p>
                   </div>
                 </div>
-                <div class="list-project">
-                  <h2 class="title project-title">Технокряк</h2>
-                  <p class="work-type">веб-сайт</p>
+                <div class="gallery__box-signature">
+                  <h2 class="gallery__signature-title">Технокряк</h2>
+                  <p class="gallery__work-type">веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a href="#" class="link gallery-card-link">
-                <div class="gallery-box">
+            <li class="gallery__item">
+              <a href="#" class="gallery__card-link">
+                <div class="gallery__box">
                   <img
                     src="./images/Basketball.jpg"
-                    alt="басскетболисты"
+                    alt="два басскетболиста"
                     width="370"
                     height="294"
                   />
-                  <div class="gallery-overlay">
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Totam quae neque odio similique reiciendis! At ducimus
-                      dolores praesentium nihil, quas, blanditiis, atque enim
-                      fuga labore officia eius architecto quos commodi.
+                  <div class="gallery__overlay">
+                    <p class="gallery__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Explicabo in non eius distinctio expedita delectus, sequi
+                      libero velit ut dolore ducimus corrupti tempore saepe,
+                      odit architecto eum consectetur quod quaerat?
                     </p>
                   </div>
                 </div>
-                <div class="list-project">
-                  <h2 class="title project-title">
-                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                <div class="gallery__box-signature">
+                  <h2 class="gallery__signature-title">
+                    Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="work-type">Дизайн</p>
+                  <p class="gallery__work-type">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a href="#" class="link gallery-card-link">
-                <div class="gallery-box">
+            <li class="gallery__item">
+              <a href="#" class="gallery__card-link">
+                <div class="gallery__box">
                   <img
                     src="./images/seafood.jpg"
-                    alt="Эмблема ресторана"
+                    alt="эмблема с надписью и рыбой"
                     width="370"
                     height="294"
                   />
-                  <div class="gallery-overlay">
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Totam quae neque odio similique reiciendis! At ducimus
-                      dolores praesentium nihil, quas, blanditiis, atque enim
-                      fuga labore officia eius architecto quos commodi.
+                  <div class="gallery__overlay">
+                    <p class="gallery__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Explicabo in non eius distinctio expedita delectus, sequi
+                      libero velit ut dolore ducimus corrupti tempore saepe,
+                      odit architecto eum consectetur quod quaerat?
                     </p>
                   </div>
                 </div>
-                <div class="list-project">
-                  <h2 class="title project-title">
-                    Ресторан <span lang="en">Seafood</span>
-                  </h2>
-                  <p class="work-type">Приложение</p>
+                <div class="gallery__box-signature">
+                  <h2 class="gallery__signature-title">Ресторан Seafood</h2>
+                  <p class="gallery__work-type">приложение</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a href="#" class="link gallery-card-link">
-                <div class="gallery-box">
+            <li class="gallery__item">
+              <a href="#" class="gallery__card-link">
+                <div class="gallery__box">
                   <img
                     src="./images/headphones.jpg"
-                    alt="Наушники"
+                    alt="наушники"
                     width="370"
                     height="294"
                   />
-                  <div class="gallery-overlay">
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Totam quae neque odio similique reiciendis! At ducimus
-                      dolores praesentium nihil, quas, blanditiis, atque enim
-                      fuga labore officia eius architecto quos commodi.
+                  <div class="gallery__overlay">
+                    <p class="gallery__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Explicabo in non eius distinctio expedita delectus, sequi
+                      libero velit ut dolore ducimus corrupti tempore saepe,
+                      odit architecto eum consectetur quod quaerat?
                     </p>
                   </div>
                 </div>
-                <div class="list-project">
-                  <h2 class="title project-title">
-                    Проект <span lang="en">Prime</span>
-                  </h2>
-                  <p class="work-type">Маркетинг</p>
+                <div class="gallery__box-signature">
+                  <h2 class="gallery__signature-title">Проект Prime</h2>
+                  <p class="gallery__work-type">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a href="#" class="link gallery-card-link">
-                <div class="gallery-box">
+            <li class="gallery__item">
+              <a href="#" class="gallery__card-link">
+                <div class="gallery__box">
                   <img
                     src="./images/boxes.jpg"
-                    alt="два бокса"
+                    alt="две коробки"
                     width="370"
                     height="294"
                   />
-                  <div class="gallery-overlay">
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Totam quae neque odio similique reiciendis! At ducimus
-                      dolores praesentium nihil, quas, blanditiis, atque enim
-                      fuga labore officia eius architecto quos commodi.
+                  <div class="gallery__overlay">
+                    <p class="gallery__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Explicabo in non eius distinctio expedita delectus, sequi
+                      libero velit ut dolore ducimus corrupti tempore saepe,
+                      odit architecto eum consectetur quod quaerat?
                     </p>
                   </div>
                 </div>
-                <div class="list-project">
-                  <h2 class="title project-title">
-                    Проект <span lang="en">Boxes</span>
-                  </h2>
-                  <p class="work-type">Приложение</p>
+                <div class="gallery__box-signature">
+                  <h2 class="gallery__signature-title">Проект Boxes</h2>
+                  <p class="gallery__work-type">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a href="#" class="link gallery-card-link">
-                <div class="gallery-box">
+            <li class="gallery__item">
+              <a href="#" class="gallery__card-link">
+                <div class="gallery__box">
                   <img
                     src="./images/computer.jpg"
-                    alt="монитор с сайтом"
+                    alt="стационарный компьютер"
                     width="370"
                     height="294"
                   />
-                  <div class="gallery-overlay">
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Totam quae neque odio similique reiciendis! At ducimus
-                      dolores praesentium nihil, quas, blanditiis, atque enim
-                      fuga labore officia eius architecto quos commodi.
+                  <div class="gallery__overlay">
+                    <p class="gallery__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Explicabo in non eius distinctio expedita delectus, sequi
+                      libero velit ut dolore ducimus corrupti tempore saepe,
+                      odit architecto eum consectetur quod quaerat?
                     </p>
                   </div>
                 </div>
-                <div class="list-project">
-                  <h2 class="title project-title" lang="en">
+                <div class="gallery__box-signature">
+                  <h2 class="gallery__signature-title">
                     Inspiration has no Borders
                   </h2>
-                  <p class="work-type">веб-сайт</p>
+                  <p class="gallery__work-type">веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a href="#" class="link gallery-card-link">
-                <div class="gallery-box">
+            <li class="gallery__item">
+              <a href="#" class="gallery__card-link">
+                <div class="gallery__box">
                   <img
                     src="./images/magazine.jpg"
-                    alt="открытый журнал"
+                    alt="журнал"
                     width="370"
                     height="294"
                   />
-                  <div class="gallery-overlay">
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Totam quae neque odio similique reiciendis! At ducimus
-                      dolores praesentium nihil, quas, blanditiis, atque enim
-                      fuga labore officia eius architecto quos commodi.
+                  <div class="gallery__overlay">
+                    <p class="gallery__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Explicabo in non eius distinctio expedita delectus, sequi
+                      libero velit ut dolore ducimus corrupti tempore saepe,
+                      odit architecto eum consectetur quod quaerat?
                     </p>
                   </div>
                 </div>
-                <div class="list-project">
-                  <h2 class="title project-title">
-                    Издание <span lang="en">Limited Edition</span>
+                <div class="gallery__box-signature">
+                  <h2 class="gallery__signature-title">
+                    Видання Limited Edition
                   </h2>
-                  <p class="work-type">Дизайн</p>
+                  <p class="gallery__work-type">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a href="#" class="link gallery-card-link">
-                <div class="gallery-box">
+            <li class="gallery__item">
+              <a href="#" class="gallery__card-link">
+                <div class="gallery__box">
                   <img
                     src="./images/label.jpg"
-                    alt="этикетка"
+                    alt="сайт на ноутбуке"
                     width="370"
                     height="294"
                   />
-                  <div class="gallery-overlay">
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Totam quae neque odio similique reiciendis! At ducimus
-                      dolores praesentium nihil, quas, blanditiis, atque enim
-                      fuga labore officia eius architecto quos commodi.
+                  <div class="gallery__overlay">
+                    <p class="gallery__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Explicabo in non eius distinctio expedita delectus, sequi
+                      libero velit ut dolore ducimus corrupti tempore saepe,
+                      odit architecto eum consectetur quod quaerat?
                     </p>
                   </div>
                 </div>
-                <div class="list-project">
-                  <h2 class="title project-title">
-                    Проект <span lang="en">LAB</span>
-                  </h2>
-                  <p class="work-type">Маркетинг</p>
+                <div class="gallery__box-signature">
+                  <h2 class="gallery__signature-title">Проект LAB</h2>
+                  <p class="gallery__work-type">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="gallery-item">
-              <a href="#" class="link gallery-card-link">
-                <div class="gallery-box">
+            <li class="gallery__item">
+              <a href="#" class="gallery__card-link">
+                <div class="gallery__box">
                   <img
                     src="./images/writingonlaptop.jpg"
-                    alt="печатает на ноутбуке"
+                    alt="сайт на ноутбуке"
                     width="370"
                     height="294"
                   />
-                  <div class="gallery-overlay">
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Totam quae neque odio similique reiciendis! At ducimus
-                      dolores praesentium nihil, quas, blanditiis, atque enim
-                      fuga labore officia eius architecto quos commodi.
+                  <div class="gallery__overlay">
+                    <p class="gallery__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Explicabo in non eius distinctio expedita delectus, sequi
+                      libero velit ut dolore ducimus corrupti tempore saepe,
+                      odit architecto eum consectetur quod quaerat?
                     </p>
                   </div>
                 </div>
-                <div class="list-project">
-                  <h2 class="title project-title" lang="en">
-                    Growing Business
-                  </h2>
-                  <p class="work-type">Приложение</p>
+                <div class="gallery__box-signature">
+                  <h2 class="gallery__signature-title">Growing Business</h2>
+                  <p class="gallery__work-type">Приложение</p>
                 </div>
               </a>
             </li>
